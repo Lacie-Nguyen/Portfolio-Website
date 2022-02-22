@@ -1,0 +1,235 @@
+/*** Works on common browsers ***/
+::selection {
+  background-color: #fff;
+  color: #272822;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #fff;
+  color: #272822;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #fff;
+  color: #272822;
+}
+
+::-ms-selection {
+  background-color: #fff;
+  color: #272822;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #fff;
+  color: #272822;
+}
+
+body {
+  background: #272822;
+  background-size: 1200% 1200%;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.25em;
+  /* font-weight: bold; */
+}
+
+div {
+  display: block;
+}
+
+code {
+  background-color: #272822;
+  color: #F92672;
+}
+
+.redColor {
+  color: #F92672;
+}
+
+.blueColor {
+  color: #66D9EF;
+}
+
+.command {
+  color: #A6E22E;
+}
+
+a {
+  color: #66D9EF;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.main-header {
+  position: static;
+  font-family: Inconsolata;
+  /* background-color: darkgray; */
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.name {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-size: 4em;
+  font-family: Inconsolata;
+  color: #fff27f;
+  font-weight: bold;
+}
+
+.keyword {
+  color: #fd971f;
+}
+
+.main-content {
+  /* background-color: darkgray; */
+  width: 50%;
+  font-family: Inconsolata;
+  font-size: 1.25em;
+  /* max-width: 650px; */
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 10px;
+  color: ghostwhite;
+}
+
+.section-names {
+  font-weight: bold;
+}
+
+#resume {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.thumbnail {
+  /* background-color: darkgray; */
+  background-color: black;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+  /* border: solid 1px red; */
+  border: solid .5px black;
+
+}
+
+/* SLIDESHOW */
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

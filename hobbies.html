@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
+    <title>NHAN H. NGUYEN</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Boostrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/634ba7a49b.js"></script>
+
+    <!-- Custom fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="static/css/main.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <h1 class="name" class="">NHAN H. NGUYEN</h1>
+
+         <!-- Navigation bar -->
+        <nav>
+            <p class="redColor" style="font-size: 1.1em;">[ "<a class="redColor" href="index.html">About me</a>", "<a class="redColor" href="projects.html">Projects</a>", "<a class="redColor" href="experience.html">Involvements</a>", "<a class="redColor" href="hobbies.html">Hobbies</a>"]</p>
+        </nav>
+
+    </header>
+
+    <section class="main-content">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col" style="margin-left: 2%; margin-right: 2%">
+
+                    <h2 class="command">Hobbies</h2>
+
+                    <p>I enjoy <span class="blueColor"> sight-seeing</span>, <span class="blueColor">traveling</span>, and any types of <span class="blueColor">outdoor activities</span>.</p>
+                    
+                    <p>Check out below some photos from my very first hiking trip in the United States.</p>
+                    <br>
+
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with caption text -->
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="img/IMG_20190410_104956_1610.jpg" style="width:100%">
+                            <!-- <div class="text">First time learned about The People</div> -->
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="img/IMG_20190409_013111_1610.jpg" style="width:100%">
+                            <!-- <div class="text">My friend and me</div> -->
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="img/IMG_20190422_011734_1610.jpg" style="width:100%">
+                            <!-- <div class="text">Exhibition</div> -->
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="img/IMG_20190421_182124_1610.jpg" style="width:100%">
+                            <!-- <div class="text">Old books recycling</div> -->
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="img/IMG_20190421_171605_1610.jpg" style="width:100%">
+                            <!-- <div class="text">Exhibition</div> -->
+                        </div>
+
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+
+                    <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                    </script>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+</body>
+
+</html>
